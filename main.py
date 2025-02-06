@@ -41,8 +41,7 @@ if uploaded_file:
     
 
     client = OpenAI(
-    api_key="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"
-    )
+    api_key="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")
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
