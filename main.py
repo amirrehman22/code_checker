@@ -6,8 +6,8 @@ import os
 
 # Streamlit User Interface
 st.title("📌 Code Evaluator")
-st.write("To get an API key, click here:")
-st.markdown("[🔑 OpenAI API Key](https://platform.openai.com/signup)", unsafe_allow_html=True)
+st.sidebar.write("🔑 **Get an OpenAI API Key:**")
+st.sidebar.markdown("[Click here to get an API key](https://platform.openai.com/chat-completions)", unsafe_allow_html=True)
 
 # Sidebar for API key input
 api_key = st.sidebar.text_input("Enter your API key", type="password")
